@@ -7,9 +7,7 @@ const page = () => {
 				<div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative ">
 					<div className="grid grid-cols-1 lg:grid-cols-2 gap-9">
 						<div className="img-box">
-							<Image
-								width={400}
-								height={400}
+							<img
 								src="https://pagedone.io/asset/uploads/1702034769.png"
 								alt="About Us tailwind page"
 								className="max-lg:mx-auto"
@@ -21,7 +19,7 @@ const page = () => {
 									About Us{" "}
 								</h2>
 								<p className="font-normal text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
-									Driven by a passion for seamless user experiences, we ve
+									Driven by a passion for seamless user experiences, we've
 									meticulously curated pagedone to empower creators, designers,
 									and developers alike. Our mission is to provide a
 									comprehensive toolkit, enabling you to build intuitive,
@@ -39,9 +37,7 @@ const page = () => {
 					<div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-9 ">
 						<div className="lg:pr-24 flex items-center">
 							<div className="data w-full">
-								<Image
-									width={400}
-									height={400}
+								<img
 									src="https://pagedone.io/asset/uploads/1702034785.png"
 									alt="About Us tailwind page"
 									className="block lg:hidden mb-9 mx-auto"
@@ -51,7 +47,7 @@ const page = () => {
 								</h2>
 								<p className="font-normal text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
 									Pagedone isn’t just a collection of components and guidelines;
-									it s a philosophy. We go beyond aesthetics, prioritizing
+									it's a philosophy. We go beyond aesthetics, prioritizing
 									accessibility, scalability, and usability. Every element, from
 									the tiniest detail to the grandest layout, is meticulously
 									crafted to enhance functionality and elevate user
@@ -60,9 +56,7 @@ const page = () => {
 							</div>
 						</div>
 						<div className="img-box ">
-							<Image
-								width={400}
-								height={400}
+							<img
 								src="https://pagedone.io/asset/uploads/1702034785.png"
 								alt="About Us tailwind page"
 								className="hidden lg:block "
@@ -88,7 +82,7 @@ const page = () => {
 										Company growth
 									</h4>
 									<p className="text-xs text-gray-500 leading-5">
-										Company s remarkable growth journey as we continually
+										Company's remarkable growth journey as we continually
 										innovate and drive towards new heights of success.
 									</p>
 								</div>
@@ -146,10 +140,10 @@ const page = () => {
 										<p className="text-lg text-gray-500 leading-8 mb-8 text-center">
 											I have been using pagedone for several months now, and I
 											must say that it has made my life a lot easier. The
-											platform s intuitive interface and ease of use have
+											platform's intuitive interface and ease of use have
 											allowed me to manage my finances more effectively and make
 											informed investment decisions. I particularly like the
-											product s auto-tracking feature, which has saved me a lot
+											product's auto-tracking feature, which has saved me a lot
 											of time and effort.
 										</p>
 									</div>
@@ -161,10 +155,10 @@ const page = () => {
 										<p className="text-lg text-gray-500 leading-8 mb-8 text-center">
 											I have been using pagedone for several months now, and I
 											must say that it has made my life a lot easier. The
-											platform s intuitive interface and ease of use have
+											platform's intuitive interface and ease of use have
 											allowed me to manage my finances more effectively and make
 											informed investment decisions. I particularly like the
-											product s auto-tracking feature, which has saved me a lot
+											product's auto-tracking feature, which has saved me a lot
 											of time and effort.
 										</p>
 									</div>
@@ -176,10 +170,10 @@ const page = () => {
 										<p className="text-lg text-gray-500 leading-8 mb-8 text-center">
 											I have been using pagedone for several months now, and I
 											must say that it has made my life a lot easier. The
-											platform s intuitive interface and ease of use have
+											platform's intuitive interface and ease of use have
 											allowed me to manage my finances more effectively and make
 											informed investment decisions. I particularly like the
-											product s auto-tracking feature, which has saved me a lot
+											product's auto-tracking feature, which has saved me a lot
 											of time and effort.
 										</p>
 									</div>
@@ -190,27 +184,21 @@ const page = () => {
 					<div thumbsSlider="" className="swiper mySwiper">
 						<div className="swiper-wrapper flex items-center justify-center">
 							<div className="swiper-slide">
-								<Image
-									width={400}
-									height={400}
+								<img
 									src="https://pagedone.io/asset/uploads/1704349534.png"
 									alt="Emily image"
 									className="mx-auto scale-90 transition-all duration-300 swiper-slide:w-16 border rounded-full swiper-slide:border-indigo-600"
 								/>
 							</div>
 							<div className="swiper-slide">
-								<Image
-									width={400}
-									height={400}
+								<img
 									src="https://pagedone.io/asset/uploads/1704349572.png"
 									alt="Ethan image"
 									className="mx-auto scale-90 transition-all duration-300 swiper-slide:w-16 border rounded-full swiper-slide:border-indigo-600"
 								/>
 							</div>
 							<div className="swiper-slide">
-								<Image
-									width={400}
-									height={400}
+								<img
 									src="https://pagedone.io/asset/uploads/1704349514.png"
 									alt="Olivia image"
 									className="mx-auto scale-90 transition-all duration-300 swiper-slide:w-16 border rounded-full swiper-slide:border-indigo-600"
@@ -237,9 +225,7 @@ const page = () => {
 							<div className="swiper-slide">
 								<div className="group w-full flex-wrap flex items-center gap-8  transition-all duration-500 p-8  lg:flex-nowrap">
 									<div className=" w-full lg:w-48 h-64">
-										<Image
-											width={400}
-											height={400}
+										<img
 											src="https://pagedone.io/asset/uploads/1696238786.png"
 											alt="image"
 											className="rounded-2xl h-full object-cover mx-auto lg:mx-0 lg:w-full"
@@ -304,7 +290,9 @@ const page = () => {
 									</div>
 								</div>
 							</div>
+							
 						</div>
+						
 					</div>
 				</div>
 			</section>
