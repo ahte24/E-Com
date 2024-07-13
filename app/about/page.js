@@ -7,7 +7,9 @@ const page = () => {
 				<div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative ">
 					<div className="grid grid-cols-1 lg:grid-cols-2 gap-9">
 						<div className="img-box">
-							<img
+							<Image
+								width={400}
+								height={400}
 								src="https://pagedone.io/asset/uploads/1702034769.png"
 								alt="About Us tailwind page"
 								className="max-lg:mx-auto"
@@ -37,7 +39,9 @@ const page = () => {
 					<div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-9 ">
 						<div className="lg:pr-24 flex items-center">
 							<div className="data w-full">
-								<img
+								<Image
+									width={400}
+									height={400}
 									src="https://pagedone.io/asset/uploads/1702034785.png"
 									alt="About Us tailwind page"
 									className="block lg:hidden mb-9 mx-auto"
@@ -56,7 +60,9 @@ const page = () => {
 							</div>
 						</div>
 						<div className="img-box ">
-							<img
+							<Image
+								width={400}
+								height={400}
 								src="https://pagedone.io/asset/uploads/1702034785.png"
 								alt="About Us tailwind page"
 								className="hidden lg:block "
@@ -184,21 +190,27 @@ const page = () => {
 					<div thumbsSlider="" className="swiper mySwiper">
 						<div className="swiper-wrapper flex items-center justify-center">
 							<div className="swiper-slide">
-								<img
+								<Image
+									width={400}
+									height={400}
 									src="https://pagedone.io/asset/uploads/1704349534.png"
 									alt="Emily image"
 									className="mx-auto scale-90 transition-all duration-300 swiper-slide:w-16 border rounded-full swiper-slide:border-indigo-600"
 								/>
 							</div>
 							<div className="swiper-slide">
-								<img
+								<Image
+									width={400}
+									height={400}
 									src="https://pagedone.io/asset/uploads/1704349572.png"
 									alt="Ethan image"
 									className="mx-auto scale-90 transition-all duration-300 swiper-slide:w-16 border rounded-full swiper-slide:border-indigo-600"
 								/>
 							</div>
 							<div className="swiper-slide">
-								<img
+								<Image
+									width={400}
+									height={400}
 									src="https://pagedone.io/asset/uploads/1704349514.png"
 									alt="Olivia image"
 									className="mx-auto scale-90 transition-all duration-300 swiper-slide:w-16 border rounded-full swiper-slide:border-indigo-600"
@@ -225,7 +237,9 @@ const page = () => {
 							<div className="swiper-slide">
 								<div className="group w-full flex-wrap flex items-center gap-8  transition-all duration-500 p-8  lg:flex-nowrap">
 									<div className=" w-full lg:w-48 h-64">
-										<img
+										<Image
+											width={400}
+											height={400}
 											src="https://pagedone.io/asset/uploads/1696238786.png"
 											alt="image"
 											className="rounded-2xl h-full object-cover mx-auto lg:mx-0 lg:w-full"
@@ -290,9 +304,7 @@ const page = () => {
 									</div>
 								</div>
 							</div>
-							
 						</div>
-						
 					</div>
 				</div>
 			</section>
