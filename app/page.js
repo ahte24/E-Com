@@ -62,7 +62,7 @@ export default function Home() {
 									<p className="text-sm">{trim(product.description)}</p>
 									<div className="flex items-center">
 										<p className="text-lg font-semibold text-black cursor-auto my-3">
-											${product.price}
+											₹ {product.price}
 										</p>
 									</div>
 								</div>

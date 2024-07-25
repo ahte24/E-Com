@@ -103,7 +103,7 @@ const Page = ({ params }) => {
 								₹ {productData.price}
 							</span>
 							<button
-								className="flex ml-auto text-white bg-[#25d366] border-0 py-2 px-6 focus:outline-none hover:bg-[#1ca04d] rounded"
+								className="flex ml-auto text-white bg-[#25d366] border-0 py-2 px-3 focus:outline-none hover:bg-[#1ca04d] rounded"
 								onClick={redirectToWhatsApp}
 							>
 								Contact via WhatsApp
