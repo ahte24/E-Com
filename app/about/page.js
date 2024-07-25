@@ -86,11 +86,14 @@ const page = () => {
 							Our Happy Clients
 						</h2>
 						<p className="lg:w-2/3 mx-auto leading-relaxed ">
-							Our clients are trendsetters and innovators, always ahead of the
-							curve. They embrace the latest in style and technology, from
-							bespoke tote bags to artisanal goods. With a flair for modern
-							sophistication and urban chic, our clients set trends you probably
-							haven&apos;t heard of—yet.
+							Our clients prioritize professionalism and quality, ensuring their
+							teams look sharp and feel comfortable. From security personnel to
+							school students, they value durability and style in their
+							uniforms. Our clients appreciate the balance of functionality and
+							modern design, setting standards in various sectors including
+							security, education, and hospitality. They trust Superuniform to
+							provide uniforms that not only meet but exceed industry standards,
+							ensuring their teams are always well-equipped and presentable.
 						</p>
 					</div>
 					<div className="flex flex-wrap -m-2">
@@ -170,7 +173,7 @@ const page = () => {
 							<div className="h-full flex items-center border-[#4f46e5] border-2 p-4 rounded-lg">
 								<div className="flex-grow">
 									<h2 className="text-gray-900 title-font font-bold">
-									Prime Secure & Hospitality Services Private Limited
+										Prime Secure & Hospitality Services Private Limited
 									</h2>
 								</div>
 							</div>
