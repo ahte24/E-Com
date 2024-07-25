@@ -83,7 +83,7 @@ const page = () => {
 				<div className="container px-5 py-24 mx-auto">
 					<div className="flex flex-col text-center w-full mb-20">
 						<h2 className="font-manrope text-4xl text-center text-[#4f46e5] font-bold mb-14">
-							Our Clients
+							Our Happy Clients
 						</h2>
 						<p className="lg:w-2/3 mx-auto leading-relaxed ">
 							Our clients are trendsetters and innovators, always ahead of the
