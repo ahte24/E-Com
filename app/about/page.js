@@ -1,4 +1,7 @@
 import React from "react";
+import Image from "next/image";
+import about from "@/public/about.jpg";
+import nadeem from "@/public/nadeem.jpg";
 
 const page = () => {
 	return (
@@ -6,25 +9,27 @@ const page = () => {
 			<section className="py-14 lg:py-24 relative">
 				<div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative ">
 					<div className="grid grid-cols-1 lg:grid-cols-2 gap-9">
-						<div className="img-box">
-							<img
-								src="https://pagedone.io/asset/uploads/1702034769.png"
+						<div className="img-box overflow-hidden rounded-lg">
+							<Image
+								width={700}
+								height={700}
+								src={about}
 								alt="About Us tailwind page"
 								className="max-lg:mx-auto"
 							/>
 						</div>
 						<div className="lg:pl-[100px] flex items-center">
 							<div className="data w-full">
-								<h2 className="font-manrope font-bold text-4xl lg:text-5xl text-black mb-9 max-lg:text-center relative">
+								<h2 className="font-manrope font-bold text-4xl lg:text-5xl text-[#4f46e5] mb-9 max-lg:text-center relative ">
 									About Us{" "}
 								</h2>
 								<p className="font-normal text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
-									Driven by a passion for seamless user experiences, we ve
-									meticulously curated pagedone to empower creators, designers,
-									and developers alike. Our mission is to provide a
-									comprehensive toolkit, enabling you to build intuitive,
-									beautiful interfaces that resonate with users on every
-									interaction.
+									At Super Uniform, we take pride in being a leading
+									manufacturer of high-quality uniforms, catering to the needs
+									of various sectors including security, housekeeping, and
+									schools. With over a decade of experience, our commitment to
+									excellence and customer satisfaction has made us a trusted
+									name in the industry.
 								</p>
 							</div>
 						</div>
@@ -42,16 +47,25 @@ const page = () => {
 									alt="About Us tailwind page"
 									className="block lg:hidden mb-9 mx-auto"
 								/>
-								<h2 className="font-manrope font-bold text-4xl lg:text-5xl text-black mb-9 max-lg:text-center">
-									We are Creative Since 2005
+								<h2 className="font-manrope font-bold text-4xl lg:text-5xl text-[#4f46e5] mb-9 max-lg:text-center">
+									Our Expertise
 								</h2>
 								<p className="font-normal text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
-									Pagedone isn’t just a collection of components and guidelines;
-									it s a philosophy. We go beyond aesthetics, prioritizing
-									accessibility, scalability, and usability. Every element, from
-									the tiniest detail to the grandest layout, is meticulously
-									crafted to enhance functionality and elevate user
-									satisfaction.
+									<b>Security Uniforms:</b> We specialize in providing complete
+									sets of security uniforms, ensuring that every piece is
+									designed for functionality, comfort, and durability. From head
+									to toe, our security uniforms meet the highest standards of
+									quality and professional appearance.
+									<br />
+									<b>Housekeeping Uniforms:</b> Our housekeeping uniforms are
+									crafted to offer both style and practicality, ensuring that
+									staff look professional while being comfortable throughout
+									their shifts.
+									<br />
+									<b>School Uniforms:</b> We understand the importance of
+									durable and comfortable school uniforms. Our designs cater to
+									the needs of students, allowing them to focus on their studies
+									without any discomfort.
 								</p>
 							</div>
 						</div>
@@ -68,22 +82,23 @@ const page = () => {
 
 			<section className="py-20 bg-white">
 				<div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-					<h2 className="font-manrope text-4xl text-center text-gray-900 font-bold mb-14">
+					<h2 className="font-manrope text-4xl text-center text-[#4f46e5] font-bold mb-14">
 						Our results in numbers
 					</h2>
 					<div className="flex flex-col gap-5 xl:gap-8 lg:flex-row lg:justify-between">
 						<div className="w-full max-lg:max-w-2xl mx-auto lg:mx-0 lg:w-1/3 bg-white p-6 rounded-2xl shadow-md shadow-gray-100">
 							<div className="flex gap-5">
 								<div className="font-manrope text-2xl font-bold text-indigo-600">
-									240%
+									140%
 								</div>
 								<div className="flex-1">
 									<h4 className="text-xl text-gray-900 font-semibold mb-2">
 										Company growth
 									</h4>
 									<p className="text-xs text-gray-500 leading-5">
-										Company s remarkable growth journey as we continually
-										innovate and drive towards new heights of success.
+										Our remarkable growth journey is a testament to our
+										continuous innovation and drive towards new heights of
+										success.
 									</p>
 								</div>
 							</div>
@@ -91,15 +106,15 @@ const page = () => {
 						<div className="w-full max-lg:max-w-2xl mx-auto lg:mx-0 lg:w-1/3 bg-white p-6 rounded-2xl shadow-md shadow-gray-100">
 							<div className="flex gap-5">
 								<div className="font-manrope text-2xl font-bold text-indigo-600">
-									175+
+									50+
 								</div>
 								<div className="flex-1">
 									<h4 className="text-xl text-gray-900 font-semibold mb-2">
-										Company growth
+										Talented Team Members
 									</h4>
 									<p className="text-xs text-gray-500 leading-5">
-										Our very talented team members are the powerhouse of
-										pagedone and pillars of our success.{" "}
+										Our very talented team members are the powerhouse of Super
+										Uniform and the pillars of our success.
 									</p>
 								</div>
 							</div>
@@ -107,14 +122,14 @@ const page = () => {
 						<div className="w-full max-lg:max-w-2xl mx-auto lg:mx-0 lg:w-1/3 bg-white p-6 rounded-2xl shadow-md shadow-gray-100">
 							<div className="flex gap-5">
 								<div className="font-manrope text-2xl font-bold text-indigo-600">
-									625+
+									300+
 								</div>
 								<div className="flex-1">
 									<h4 className="text-xl text-gray-900 font-semibold mb-2">
 										Projects Completed
 									</h4>
 									<p className="text-xs text-gray-500 leading-5">
-										We have accomplished more than 625 projects worldwide and we
+										We have accomplished more than 300 projects worldwide and
 										are still counting many more.
 									</p>
 								</div>
@@ -127,7 +142,7 @@ const page = () => {
 			<section className=" py-14 lg:py-24 bg-gray-50">
 				<div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
 					<div className="mb-16 rounded-full">
-						<h2 className="text-4xl font-manrope font-bold text-gray-900 text-center">
+						<h2 className="text-4xl font-manrope font-bold text-[#4f46e5] text-center">
 							What our happy user says!
 						</h2>
 					</div>
@@ -138,13 +153,14 @@ const page = () => {
 								<div className="relative mb-20">
 									<div className="max-w-max mx-auto lg:max-w-4xl">
 										<p className="text-lg text-gray-500 leading-8 mb-8 text-center">
-											I have been using pagedone for several months now, and I
-											must say that it has made my life a lot easier. The
-											platform s intuitive interface and ease of use have
-											allowed me to manage my finances more effectively and make
-											informed investment decisions. I particularly like the
-											product s auto-tracking feature, which has saved me a lot
-											of time and effort.
+											I have been working with Super Uniform for several years,
+											and their products have always exceeded my expectations.
+											The quality and durability of the security uniforms we
+											receive are unmatched, ensuring our staff not only look
+											professional but feel comfortable throughout their shifts.
+											Their attention to detail and customer service is
+											outstanding, making them a reliable partner in our
+											operations.
 										</p>
 									</div>
 								</div>
@@ -153,13 +169,12 @@ const page = () => {
 								<div className="relative mb-20">
 									<div className="max-w-max mx-auto lg:max-w-4xl">
 										<p className="text-lg text-gray-500 leading-8 mb-8 text-center">
-											I have been using pagedone for several months now, and I
-											must say that it has made my life a lot easier. The
-											platform s intuitive interface and ease of use have
-											allowed me to manage my finances more effectively and make
-											informed investment decisions. I particularly like the
-											product s auto-tracking feature, which has saved me a lot
-											of time and effort.
+											Super Uniform has been our go-to supplier for school
+											uniforms for over a decade. The uniforms are not only
+											stylish but also incredibly durable, standing up to the
+											daily wear and tear of school life. The team at Super
+											Uniform is always responsive and accommodating, ensuring
+											our orders are delivered on time, every time.
 										</p>
 									</div>
 								</div>
@@ -168,41 +183,16 @@ const page = () => {
 								<div className="relative mb-20">
 									<div className="max-w-max mx-auto lg:max-w-4xl">
 										<p className="text-lg text-gray-500 leading-8 mb-8 text-center">
-											I have been using pagedone for several months now, and I
-											must say that it has made my life a lot easier. The
-											platform s intuitive interface and ease of use have
-											allowed me to manage my finances more effectively and make
-											informed investment decisions. I particularly like the
-											product s auto-tracking feature, which has saved me a lot
-											of time and effort.
+											We've partnered with Super Uniform for our housekeeping
+											staff uniforms, and the results have been fantastic. The
+											uniforms are practical and comfortable, allowing our staff
+											to perform their duties efficiently. The level of
+											professionalism and dedication from the Super Uniform team
+											has been commendable, and we look forward to continuing
+											our partnership.
 										</p>
 									</div>
 								</div>
-							</div>
-						</div>
-					</div>
-					<div thumbsSlider="" className="swiper mySwiper">
-						<div className="swiper-wrapper flex items-center justify-center">
-							<div className="swiper-slide">
-								<img
-									src="https://pagedone.io/asset/uploads/1704349534.png"
-									alt="Emily image"
-									className="mx-auto scale-90 transition-all duration-300 swiper-slide:w-16 border rounded-full swiper-slide:border-indigo-600"
-								/>
-							</div>
-							<div className="swiper-slide">
-								<img
-									src="https://pagedone.io/asset/uploads/1704349572.png"
-									alt="Ethan image"
-									className="mx-auto scale-90 transition-all duration-300 swiper-slide:w-16 border rounded-full swiper-slide:border-indigo-600"
-								/>
-							</div>
-							<div className="swiper-slide">
-								<img
-									src="https://pagedone.io/asset/uploads/1704349514.png"
-									alt="Olivia image"
-									className="mx-auto scale-90 transition-all duration-300 swiper-slide:w-16 border rounded-full swiper-slide:border-indigo-600"
-								/>
 							</div>
 						</div>
 					</div>
@@ -212,39 +202,43 @@ const page = () => {
 			<section className="py-14 lg:py-24 ">
 				<div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 					<div className="mb-24">
-						<h2 className="font-manrope text-4xl text-center font-bold text-gray-900 mb-6">
-							Meet our soldier of finance
+						<h2 className="font-manrope text-4xl text-center font-bold text-[#4f46e5] mb-6">
+							Meet Our Founder
 						</h2>
 						<p className="text-lg text-gray-500 text-center">
-							We provide all the advantage that can simplify all your financial
-							and banking support without any further issues
+							We provide all the advantages that can simplify all your uniform
+							needs without any further issues.
 						</p>
 					</div>
 					<div className="swiper teamswiper pb-10">
 						<div className="swiper-wrapper">
 							<div className="swiper-slide">
-								<div className="group w-full flex-wrap flex items-center gap-8  transition-all duration-500 p-8  lg:flex-nowrap">
-									<div className=" w-full lg:w-48 h-64">
-										<img
-											src="https://pagedone.io/asset/uploads/1696238786.png"
+								<div className="group w-full flex-wrap flex items-center justify-center gap-8  transition-all duration-500 p-8  lg:flex-nowrap">
+									<div className=" w-full lg:w-64 h-80">
+										<Image
+											width={500}
+											height={500}
+											src={nadeem}
 											alt="image"
 											className="rounded-2xl h-full object-cover mx-auto lg:mx-0 lg:w-full"
 										/>
 									</div>
 									<div className="text-center lg:text-left lg:max-w-xs flex-1">
 										<div className="mb-5 pb-5 border-b border-solid border-gray-300">
-											<h6 className="text-lg text-gray-900 font-semibold mb-1">
-												Harsh Patel
+											<h6 className="text-lg text-[#4f46e5] font-semibold mb-1">
+												Nadeem Siddiqui
 											</h6>
 											<span className="text-sm text-gray-500 group-hover:text-indigo-600">
-												Co-Founder & CEO
+												Founder & CEO
 											</span>
 										</div>
-										<p className="text-gray-500 leading-6 mb-7">
-											I am the co founder of pagedone and we’ve pushed our limit
-											so far to make it successful.
+										<p className="text-gray-500 text-sm leading-6 mb-7">
+											As the Founder of Super Uniform, my focus is on creating
+											high-quality uniforms that meet diverse needs. With over a
+											decade of experience, we've become a trusted name through
+											our commitment to excellence and innovation.
 										</p>
-										<div className="flex items-center gap-4 justify-center lg:justify-start">
+										<div className="flex items-center  gap-4 justify-center lg:justify-start">
 											<p className="cursor-pointer  text-gray-900 hover:text-white group w-12 h-12 rounded-full flex justify-center items-center bg-gray-100 transition-all duration-500 hover:bg-indigo-600">
 												<svg
 													className="w-5 h-5"
@@ -273,26 +267,12 @@ const page = () => {
 													/>
 												</svg>
 											</p>
-											<p className="cursor-pointer  text-gray-900 hover:text-white group w-12 h-12 rounded-full flex justify-center items-center bg-gray-100 transition-all duration-500 hover:bg-indigo-600">
-												<svg
-													className="w-5 h-5"
-													viewBox="0 0 20 19"
-													fill="none"
-													xmlns="http://www.w3.org/2000/svg"
-												>
-													<path
-														d="M5.00626 18.8859V6.59092H0.909448V18.8859H5.00669H5.00626ZM2.95871 4.91254C4.38705 4.91254 5.27629 3.96844 5.27629 2.78857C5.24956 1.58182 4.38705 0.664062 2.98587 0.664062C1.58373 0.664062 0.667969 1.58182 0.667969 2.78846C0.667969 3.96833 1.55689 4.91244 2.93187 4.91244H2.95839L2.95871 4.91254ZM7.2739 18.8859H11.3704V12.0205C11.3704 11.6536 11.3971 11.2856 11.5054 11.0235C11.8014 10.289 12.4754 9.52875 13.6074 9.52875C15.0895 9.52875 15.6827 10.6561 15.6827 12.3091V18.8859H19.7791V11.8363C19.7791 8.05999 17.7583 6.30267 15.063 6.30267C12.8532 6.30267 11.8827 7.53471 11.3434 8.37384H11.3707V6.59135H7.27412C7.32759 7.74476 7.27379 18.8863 7.27379 18.8863L7.2739 18.8859Z"
-														fill="currentColor"
-													/>
-												</svg>
-											</p>
+											
 										</div>
 									</div>
 								</div>
 							</div>
-							
 						</div>
-						
 					</div>
 				</div>
 			</section>
