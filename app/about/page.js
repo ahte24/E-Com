@@ -207,7 +207,7 @@ const page = () => {
 						<div className="w-full max-lg:max-w-2xl mx-auto lg:mx-0 lg:w-1/3 bg-white p-6 rounded-2xl shadow-md shadow-gray-100">
 							<div className="flex gap-5">
 								<div className="font-manrope text-2xl font-bold text-indigo-600">
-									200+
+									100+
 								</div>
 								<div className="flex-1">
 									<h4 className="text-xl text-gray-900 font-semibold mb-2">
