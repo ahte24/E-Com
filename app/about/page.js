@@ -90,7 +90,7 @@ const page = () => {
 							curve. They embrace the latest in style and technology, from
 							bespoke tote bags to artisanal goods. With a flair for modern
 							sophistication and urban chic, our clients set trends you probably
-							haven't heard of—yet.
+							haven&apos;t heard of—yet.
 						</p>
 					</div>
 					<div className="flex flex-wrap -m-2">
