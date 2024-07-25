@@ -85,7 +85,7 @@ const page = () => {
 						<h2 className="font-manrope text-4xl text-center text-[#4f46e5] font-bold mb-14">
 							Our Clients
 						</h2>
-						<p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+						<p className="lg:w-2/3 mx-auto leading-relaxed ">
 							Our clients are trendsetters and innovators, always ahead of the
 							curve. They embrace the latest in style and technology, from
 							bespoke tote bags to artisanal goods. With a flair for modern
@@ -97,7 +97,7 @@ const page = () => {
 						<div className="p-2 lg:w-1/3 xl:w-1/4 md:w-1/2 w-full">
 							<div className="h-full flex items-center border-[#4f46e5] border-2 p-4 rounded-lg">
 								<div className="flex-grow">
-									<h2 className="text-gray-900 title-font font-medium">
+									<h2 className="text-gray-900 title-font font-bold">
 										ACME Protection Services Pvt Ltd
 									</h2>
 								</div>
@@ -106,7 +106,7 @@ const page = () => {
 						<div className="p-2 lg:w-1/3 xl:w-1/4 md:w-1/2 w-full">
 							<div className="h-full flex items-center border-[#4f46e5] border-2 p-4 rounded-lg">
 								<div className="flex-grow">
-									<h2 className="text-gray-900 title-font font-medium">
+									<h2 className="text-gray-900 title-font font-bold">
 										LDS Guarding Solutions Pvt Ltd
 									</h2>
 								</div>
@@ -115,7 +115,7 @@ const page = () => {
 						<div className="p-2 lg:w-1/3 xl:w-1/4 md:w-1/2 w-full">
 							<div className="h-full flex items-center border-[#4f46e5] border-2 p-4 rounded-lg">
 								<div className="flex-grow">
-									<h2 className="text-gray-900 title-font font-medium">
+									<h2 className="text-gray-900 title-font font-bold">
 										Gracius Security Services Pvt Ltd
 									</h2>
 								</div>
@@ -124,7 +124,7 @@ const page = () => {
 						<div className="p-2 lg:w-1/3 xl:w-1/4 md:w-1/2 w-full">
 							<div className="h-full flex items-center border-[#4f46e5] border-2 p-4 rounded-lg">
 								<div className="flex-grow">
-									<h2 className="text-gray-900 title-font font-medium">
+									<h2 className="text-gray-900 title-font font-bold">
 										ARC Security Solutions Pvt Ltd
 									</h2>
 								</div>
@@ -133,7 +133,7 @@ const page = () => {
 						<div className="p-2 lg:w-1/3 xl:w-1/4 md:w-1/2 w-full">
 							<div className="h-full flex items-center border-[#4f46e5] border-2 p-4 rounded-lg">
 								<div className="flex-grow">
-									<h2 className="text-gray-900 title-font font-medium">
+									<h2 className="text-gray-900 title-font font-bold">
 										Alisail Security Services Pvt Ltd
 									</h2>
 								</div>
@@ -142,7 +142,7 @@ const page = () => {
 						<div className="p-2 lg:w-1/3 xl:w-1/4 md:w-1/2 w-full">
 							<div className="h-full flex items-center border-[#4f46e5] border-2 p-4 rounded-lg">
 								<div className="flex-grow">
-									<h2 className="text-gray-900 title-font font-medium">
+									<h2 className="text-gray-900 title-font font-bold">
 										Mentor Security Services Pvt Ltd
 									</h2>
 								</div>
@@ -151,7 +151,7 @@ const page = () => {
 						<div className="p-2 lg:w-1/3 xl:w-1/4 md:w-1/2 w-full">
 							<div className="h-full flex items-center border-[#4f46e5] border-2 p-4 rounded-lg">
 								<div className="flex-grow">
-									<h2 className="text-gray-900 title-font font-medium">
+									<h2 className="text-gray-900 title-font font-bold">
 										Egle Security Solution
 									</h2>
 								</div>
@@ -160,8 +160,17 @@ const page = () => {
 						<div className="p-2 lg:w-1/3 md:w-1/2 xl:w-1/4 w-full">
 							<div className="h-full flex items-center border-[#4f46e5] border-2 p-4 rounded-lg">
 								<div className="flex-grow">
-									<h2 className="text-gray-900 title-font font-medium">
+									<h2 className="text-gray-900 title-font font-bold">
 										San Infra Realtech Private Limited
+									</h2>
+								</div>
+							</div>
+						</div>
+						<div className="p-2 lg:w-1/3 md:w-1/2 xl:w-1/4 w-full">
+							<div className="h-full flex items-center border-[#4f46e5] border-2 p-4 rounded-lg">
+								<div className="flex-grow">
+									<h2 className="text-gray-900 title-font font-bold">
+									Prime Secure & Hospitality Services Private Limited
 									</h2>
 								</div>
 							</div>
