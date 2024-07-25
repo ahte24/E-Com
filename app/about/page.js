@@ -183,7 +183,7 @@ const page = () => {
 								<div className="relative mb-20">
 									<div className="max-w-max mx-auto lg:max-w-4xl">
 										<p className="text-lg text-gray-500 leading-8 mb-8 text-center">
-											We've partnered with Super Uniform for our housekeeping
+											We&apos;ve partnered with Super Uniform for our housekeeping
 											staff uniforms, and the results have been fantastic. The
 											uniforms are practical and comfortable, allowing our staff
 											to perform their duties efficiently. The level of
@@ -235,7 +235,7 @@ const page = () => {
 										<p className="text-gray-500 text-sm leading-6 mb-7">
 											As the Founder of Super Uniform, my focus is on creating
 											high-quality uniforms that meet diverse needs. With over a
-											decade of experience, we've become a trusted name through
+											decade of experience, we&apos;ve become a trusted name through
 											our commitment to excellence and innovation.
 										</p>
 										<div className="flex items-center  gap-4 justify-center lg:justify-start">

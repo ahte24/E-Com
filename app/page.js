@@ -8,8 +8,7 @@ import { useState, useEffect } from "react";
 const getProducts = async () => {
 	const headers = {
 		"Content-Type": "application/json",
-		// Add other headers as needed
-		// 'Authorization': 'Bearer your_token_here',
+		
 	};
 
 	try {
