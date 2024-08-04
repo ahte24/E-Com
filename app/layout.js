@@ -12,7 +12,7 @@ export const metadata = {
 	charset: "UTF-8",
 	viewport: "width=device-width, initial-scale=1.0",
 	keywords:
-		"superuniform, superuniform.com, superuniform.in, uniforms, security uniforms, school uniforms, housekeeping uniforms, quality uniforms, comfortable uniforms, durable uniforms, professional uniforms, corporate uniforms, healthcare uniforms, chef uniforms, custom uniforms, personalized uniforms, industrial uniforms, workwear, sports uniforms, military uniforms, police uniforms, fire department uniforms, hospitality uniforms",
+		"superuniform, super uniform, superuniform.com, superuniform.in, uniforms, security uniforms, school uniforms, housekeeping uniforms, quality uniforms, comfortable uniforms, durable uniforms, professional uniforms, corporate uniforms, healthcare uniforms, chef uniforms, custom uniforms, personalized uniforms, industrial uniforms, workwear, sports uniforms, military uniforms, police uniforms, fire department uniforms, hospitality uniforms",
 	author: "Superuniform",
 	robots: "index, follow",
 	og: {
