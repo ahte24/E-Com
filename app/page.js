@@ -54,7 +54,7 @@ export default function Home() {
 									<img
 										src={`${endpoint}/${product.image}`}
 										alt={product.name}
-										className="h-80 w-72 object-cover rounded-t-xl"
+										className="h-80 w-72 object-contain rounded-t-xl"
 									/>
 									<div className="px-4 py-1 w-72">
 										<span className="text-gray-400 mr-3 uppercase text-xs">
