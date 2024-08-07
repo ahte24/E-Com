@@ -9,17 +9,15 @@ export const metadata = {
 	title: "Superuniform - Quality Uniforms for Security, Schools, and More",
 	description:
 		"Superuniform offers high-quality uniforms for security personnel, schools, and various other sectors. Experience comfort and durability with our expertly crafted uniforms.",
-	charset: "UTF-8",
-	viewport: "width=device-width, initial-scale=1.0",
 	keywords:
 		"superuniform, super uniform, superuniform.com, superuniform.in, uniforms, security uniforms, school uniforms, housekeeping uniforms, quality uniforms, comfortable uniforms, durable uniforms, professional uniforms, corporate uniforms, healthcare uniforms, chef uniforms, custom uniforms, personalized uniforms, industrial uniforms, workwear, sports uniforms, military uniforms, police uniforms, fire department uniforms, hospitality uniforms",
-	author: "Superuniform",
 	robots: "index, follow",
-	og: {
+	author: "Superuniform",
+	openGraph: {
 		title: "Superuniform - Quality Uniforms for Security, Schools, and More",
 		description:
 			"Superuniform offers high-quality uniforms for security personnel, schools, and various other sectors. Experience comfort and durability with our expertly crafted uniforms.",
-		image: "URL_to_image",
+
 		url: "https://superuniform.in",
 		type: "website",
 		site_name: "Superuniform",
@@ -29,7 +27,12 @@ export const metadata = {
 		title: "Superuniform - Quality Uniforms for Security, Schools, and More",
 		description:
 			"Superuniform offers high-quality uniforms for security personnel, schools, and various other sectors. Experience comfort and durability with our expertly crafted uniforms.",
-		image: "URL_to_image",
+		images: [
+			{
+				url: "https://superuniform.in/path_to_image.jpg", // Replace with actual image URL
+				alt: "Superuniform",
+			},
+		],
 		site: "@Superuniform",
 		creator: "@Superuniform",
 	},
